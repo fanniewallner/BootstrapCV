@@ -1,8 +1,14 @@
+body {
+    margin
+}
+
 .img-card {
-    display: flex;
+    /* display: flex; */
     width: 150px;
 }
 
+/* .article-image {
+    display: flex;
+    justify-content: center;
+} */
 
-
-@media (min-width: 768px) { ... }
