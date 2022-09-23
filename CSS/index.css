@@ -4,10 +4,6 @@ body {
     box-sizing: border-box;
 }
 
-.hero {
-    height: 100vh;
-}
-
 ul li:hover {
     border-bottom: 1px solid lightslategray;
 
@@ -25,16 +21,6 @@ span {
     display: block;
     font-size: calc(1.5em + 0.5vw);
 }
-
-/* span:first-child {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-    font-weight: bolder;
-}
-
-span:last-child {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-    font-weight: lighter;
-} */
 
 .text-effect1 p {
     border-left: 2px solid white;
@@ -62,7 +48,8 @@ span:last-child {
 }
 
 .img {
-    width: 13rem;
+    width: 17rem;
+    clip-path:circle();
 }
 
 .skill-container {
