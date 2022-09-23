@@ -2,12 +2,63 @@ body {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    height: 100vh;
 }
 
 ul li:hover {
     border-bottom: 1px solid lightslategray;
 
+}
+
+.text-wrapper {
+    color: white;
+}
+
+.effect {
+    margin: 40px;
+}
+
+span {
+    display: block;
+    font-size: calc(1.5em + 0.5vw);
+}
+
+/* span:first-child {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-weight: bolder;
+}
+
+span:last-child {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-weight: lighter;
+} */
+
+.text-effect1 p {
+    border-left: 2px solid white;
+    padding-left: 20px;
+    transform: scaleY(0);
+    animation: scaleUpBorder 1s forwards cubic-bezier(0.85, 0, 0.15, 1);
+    overflow: hidden;
+}
+
+@keyframes scaleUpBorder {
+    to {
+        transform: scaleY(1);
+    }
+}
+
+.text-effect1 .text-wrapper {
+    transform: translateX(calc(-100% - 20px));
+    animation: slideTextRight 1s 0.5s forwards cubic-bezier(0.85, 0, 0.15, 1);;
+}
+
+@keyframes slideTextRight {
+    to {
+        transform: translateX(0%);
+    }
 }
 
 .img {
