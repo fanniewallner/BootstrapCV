@@ -1,16 +1,56 @@
 body {
     margin: 0%;
     padding: 0%;
-    /* background: linear-gradient(45deg, lightpink, white); */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
-/* header {
-    width: 100vw;
-    background: url(/assets/bannerflower.jpg);
-    background-size: cover;
-} */
 
 ul li:hover {
     border-bottom: 1px solid lightslategray;
 
+}
+
+.img {
+    width: 13rem;
+}
+
+.skill-container {
+    width: 100%;
+    background-color: white;
+    padding-left: 1em;
+}
+
+.program {
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 1em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 1em;
+    padding-bottom: 0em;
+    color: black;
+    height: 10px;
+}
+
+.html {
+    width: 20%;
+    background-color: green;
+}
+
+.css {
+    width: 20%;
+    background-color: burlywood;
+}
+
+.bootstrap {
+    width: 10%;
+    background-color: yellow;
+}
+
+footer {
+    font-size: x-small;
 }
